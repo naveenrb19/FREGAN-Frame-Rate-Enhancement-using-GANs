@@ -24,7 +24,7 @@ encoding block and decoder block which make it able to predict X<sub>n+1</sub><s
 <p align="justify">
 The discriminator model uses a multilayer convolutional neural network to predict whether the input image is fake or real.
 
-  Note:In the research paper batchnorm layer has not been used but I added as it provides better stability for training GANs.
+  Note:In the research paper batchnorm layer has not been used but I added as it provides better stability for training GANs. Also I have used patch GAN instead of single output value model as shown above. For patch GAN check pix2pix model.
 
 ![Discriminator Architecture](https://github.com/naveenrb19/FREGAN-Frame-Rate-Enhancement-using-GANs/blob/main/Images/FREGAN_disc.PNG)
 </p>
